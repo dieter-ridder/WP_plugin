@@ -1,0 +1,36 @@
+.placeholder {
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  color: black;
+}
+
+.result {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  color: black;
+  font-size: 14px;
+}
+
+.ampel {
+  font-weight: bold;
+}
+
+.myGreen .ampel {
+  color:  #6c9c2e;
+}
+
+.myYellow .ampel {
+  color: GoldenRod;
+}
+
+.myRed .ampel {
+  color: tomato;
+}
+
+
+.result {
+  display: none;
+}
